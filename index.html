@@ -24,15 +24,128 @@
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h1 class="display-3">Plan Your Day!</h1>
+      <p class="lead">A simple calendar app for scheduling each day as you please</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+              <div class="row" id="9Row">
+
+            <div class="col-md-2 time">
+                9:00 AM
+            </div>
+
+            <div class="col-md-8 type time-block" data-hour="9">
+                <textarea class="description" id="description9"></textarea>
+            </div>
+
+            <div class="col-md-2 saveDiv">
+                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="9" style="height: 45px;"/>
+            </div>
+
+        </div>
+
+        <div class="row" id="10Row">
+            <div class="col-md-2 time">
+                10:00 AM
+            </div>
+            <div class="col-md-8 type time-block" data-hour="10">
+                <textarea class="description" id="description10"></textarea>
+            </div>
+            <div class="col-md-2 saveDiv">
+                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="10" style="height: 45px;"/>
+            </div>
+        </div>
+
+        <div class="row" id="11Row">
+            <div class="col-md-2 time">
+                11:00 AM
+            </div>
+            <div class="col-md-8 type time-block" data-hour="11">
+                <textarea class="description" id="description11"></textarea>
+            </div>
+            <div class="col-md-2 saveDiv">
+                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="11" style="height: 45px;"/>
+            </div>
+        </div>
+
+        <div class="row" id="12Row">
+            <div class="col-md-2 time">
+                12:00 PM
+            </div>
+            <div class="col-md-8 type time-block" data-hour="12">
+                <textarea class="description" id="description12"></textarea>
+            </div>
+            <div class="col-md-2 saveDiv">
+                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="12" style="height: 45px;"/>
+            </div>
+        </div>
+
+        <div class="row" id="13Row">
+            <div class="col-md-2 time">
+                1:00 PM
+            </div>
+            <div class="col-md-8 type time-block" data-hour="13">
+                <textarea class="description" id="description13"></textarea>
+            </div>
+            <div class="col-md-2 saveDiv">
+                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="13" style="height: 45px;"/>
+            </div>
+        </div>
+
+        <div class="row" id="14Row">
+            <div class="col-md-2 time">
+                2:00 PM
+            </div>
+            <div class="col-md-8 type time-block" data-hour="14">
+                <textarea class="description" id="description14"></textarea>
+            </div>
+            <div class="col-md-2 saveDiv">
+                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="14" style="height: 45px;" />
+            </div>
+        </div>
+
+        <div class="row" id="15Row">
+            <div class="col-md-2 time">
+                3:00 PM
+            </div>
+            <div class="col-md-8 type time-block" data-hour="15">
+                <textarea class="description" id="description15"></textarea>
+            </div>
+            <div class="col-md-2 saveDiv">
+                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="15" style="height: 45px;" />
+            </div>
+        </div>
+
+        <div class="row" id="16Row">
+            <div class="col-md-2 time">
+                4:00 PM
+            </div>
+            <div class="col-md-8 type time-block" data-hour="16">
+                <textarea class="description" id="description16"></textarea>
+            </div>
+            <div class="col-md-2 saveDiv">
+                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="16" style="height: 45px;" />
+            </div>
+        </div>
+
+        <div class="row" id="17Row">
+            <div class="col-md-2 time time17">
+                5:00 PM
+            </div>
+            <div class="col-md-8 type time-block" data-hour="17">
+                <textarea class="description" id="description17"></textarea>
+            </div>
+            <div class="col-md-2 saveDiv">
+                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="17" style="height: 45px;"/>
+            </div>
+        </div>
+    </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="day_plannerscript.js"></script>
   </body>
 </html>
