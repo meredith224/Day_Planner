@@ -14,6 +14,10 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
@@ -24,128 +28,69 @@
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Plan Your Day!</h1>
-      <p class="lead">A simple calendar app for scheduling each day as you please</p>
+      <h1 class="display-3">Daily Planner</h1>
+      <p class="lead">An app that helps you schedule each day on your own calendar, easily</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-              <div class="row" id="9Row">
-
-            <div class="col-md-2 time">
-                9:00 AM
-            </div>
-
-            <div class="col-md-8 type time-block" data-hour="9">
-                <textarea class="description" id="description9"></textarea>
-            </div>
-
-            <div class="col-md-2 saveDiv">
-                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="9" style="height: 45px;"/>
-            </div>
-
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-2 mt-4 time-block t1">9:00 AM</div>
+            <textarea class="col-8 first entertext e9"></textarea>
+            <button class="col-1 saveBtn fa fa-calendar-check-o b9"></button>
         </div>
 
-        <div class="row" id="10Row">
-            <div class="col-md-2 time">
-                10:00 AM
-            </div>
-            <div class="col-md-8 type time-block" data-hour="10">
-                <textarea class="description" id="description10"></textarea>
-            </div>
-            <div class="col-md-2 saveDiv">
-                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="10" style="height: 45px;"/>
-            </div>
+        <div class="row">
+            <div class="col-2 mt-4 time-block t2">10:00 AM</div>
+            <textarea class="col-8 e10"></textarea>
+            <button class="col-1 saveBtn fa fa-calendar-check-o b10"></button>
         </div>
 
-        <div class="row" id="11Row">
-            <div class="col-md-2 time">
-                11:00 AM
-            </div>
-            <div class="col-md-8 type time-block" data-hour="11">
-                <textarea class="description" id="description11"></textarea>
-            </div>
-            <div class="col-md-2 saveDiv">
-                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="11" style="height: 45px;"/>
-            </div>
+        <div class="row">
+            <div class="col-2 mt-4 time-block t3">11:00 AM</div>
+            <textarea class="col-8 e11"></textarea>
+            <button class="col-1 saveBtn fa fa-calendar-check-o b11"></button> 
         </div>
 
-        <div class="row" id="12Row">
-            <div class="col-md-2 time">
-                12:00 PM
-            </div>
-            <div class="col-md-8 type time-block" data-hour="12">
-                <textarea class="description" id="description12"></textarea>
-            </div>
-            <div class="col-md-2 saveDiv">
-                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="12" style="height: 45px;"/>
-            </div>
+        <div class="row">
+            <div class="col-2 mt-4 time-block t4">12:00 PM</div>
+            <textarea class="col-8 e12"></textarea>
+            <button class="col-1 saveBtn fa fa-calendar-check-o b12"></button>
         </div>
 
-        <div class="row" id="13Row">
-            <div class="col-md-2 time">
-                1:00 PM
-            </div>
-            <div class="col-md-8 type time-block" data-hour="13">
-                <textarea class="description" id="description13"></textarea>
-            </div>
-            <div class="col-md-2 saveDiv">
-                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="13" style="height: 45px;"/>
-            </div>
+        <div class="row">
+            <div class="col-2 mt-4 time-block t5">1:00 PM</div>
+            <textarea class="col-8 e1"></textarea>
+            <button class="col-1 saveBtn fa fa-calendar-check-o b1"></button>
         </div>
 
-        <div class="row" id="14Row">
-            <div class="col-md-2 time">
-                2:00 PM
-            </div>
-            <div class="col-md-8 type time-block" data-hour="14">
-                <textarea class="description" id="description14"></textarea>
-            </div>
-            <div class="col-md-2 saveDiv">
-                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="14" style="height: 45px;" />
-            </div>
+        <div class="row">
+            <div class="col-2 mt-4 time-block t6">2:00 PM</div>
+            <textarea class="col-8 e2"></textarea>
+            <button class="col-1 saveBtn fa fa-calendar-check-o b2"></button>
         </div>
 
-        <div class="row" id="15Row">
-            <div class="col-md-2 time">
-                3:00 PM
-            </div>
-            <div class="col-md-8 type time-block" data-hour="15">
-                <textarea class="description" id="description15"></textarea>
-            </div>
-            <div class="col-md-2 saveDiv">
-                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="15" style="height: 45px;" />
-            </div>
+        <div class="row">
+            <div class="col-2 mt-4 time-block t7">3:00 PM</div>
+            <textarea class="col-8 e3"></textarea>
+            <button class="col-1 saveBtn fa fa-calendar-check-o b3"></button>
         </div>
 
-        <div class="row" id="16Row">
-            <div class="col-md-2 time">
-                4:00 PM
-            </div>
-            <div class="col-md-8 type time-block" data-hour="16">
-                <textarea class="description" id="description16"></textarea>
-            </div>
-            <div class="col-md-2 saveDiv">
-                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="16" style="height: 45px;" />
-            </div>
+        <div class="row">
+            <div class="col-2 mt-4 time-block t8">4:00 PM</div>
+            <textarea class="col-8 e4"></textarea>
+            <button class="col-1 saveBtn fa fa-calendar-check-o b4"></button>
         </div>
 
-        <div class="row" id="17Row">
-            <div class="col-md-2 time time17">
-                5:00 PM
-            </div>
-            <div class="col-md-8 type time-block" data-hour="17">
-                <textarea class="description" id="description17"></textarea>
-            </div>
-            <div class="col-md-2 saveDiv">
-                <input type="image" src="assets/images/Savebttn.png" class="saveBtn" data-time="17" style="height: 45px;"/>
-            </div>
-        </div>
-    </div>
+        <div class="row">
+            <div class="col-2 mt-4 time-block t9">5:00 PM</div>
+            <textarea class="col-8 e5"></textarea>
+            <button class="col-1 saveBtn fa fa-calendar-check-o b5"></button>
+        </div> 
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="day_plannerscript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="day_plannerscript.js"></script>
+    <script src="moment.min.js"></script>
   </body>
 </html>
